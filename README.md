@@ -9,7 +9,8 @@
               |_|    Demo external authorizer
 ```
 # LiquidSecuritiesAuthorizer
-This is an examples of external authorizer for liquid securities.
+This is an examples of external authorizer for Blockstream AMP.
+
 ___DON'T USE THIS CODE IN PRODUCTION___
 
 - http.server is not ready for a production service
@@ -48,7 +49,7 @@ RPC_PASSWORD = ''
 RPC_PASSPHRASE = ''
 ```
 
-## Liquid securities platform signature
+## Blockstream AMP platform signature
 If you want check signature of received messages put `CHECK_SIGNATURE` to `True` and configure the `SIGNATURE_ADDRESS`.
 
 ```
