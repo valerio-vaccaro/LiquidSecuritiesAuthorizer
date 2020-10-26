@@ -7,7 +7,7 @@
 #              | |
 #              |_|    Demo external authorizer
 #
-# This is an examples of external authorizer for liquid securities.
+# This is an examples of external authorizer for Blockstream AMP.
 #             DON'T USE THIS CODE IN PRODUCTION
 #
 # - http.server is not ready for a production service
@@ -32,7 +32,7 @@ RPC_USER = ''
 RPC_PASSWORD = ''
 RPC_PASSPHRASE = ''
 
-# Liquid securities platform signature
+# Blockstream AMP platform signature
 CHECK_SIGNATURE = False
 SIGNATURE_ADDRESS = ''
 
@@ -246,7 +246,7 @@ if __name__ == "__main__":
         ' |______|_|\\__, |\\__,_|_|\\__,_|_____/ \\___|\\___|\\__,_|_|  |_|\\__|_|\\___||___/\n' +
         '              | |\n'
         '              |_|    Demo external authorizer\n\n' +
-        ' This is an examples of external authorizer for liquid securities.\n' +
+        ' This is an examples of external authorizer for Blockstream AMP.\n' +
         '            DON\'T USE THIS CODE IN PRODUCTION\n'
     )
     from sys import argv
